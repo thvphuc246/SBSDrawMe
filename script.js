@@ -43,7 +43,7 @@ function Color(a) {
 function ClearCanvas() {
 	var c = document.getElementById("painter");
 	var ctx = c.getContext("2d");
-	ctx.clearRect(0, 0, 880, 300);
+	ctx.clearRect(0, 0, 1500, 600);
 }
 
 function Preview() {
